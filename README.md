@@ -11,9 +11,9 @@ Every year, thousands of lives are lost due to delayed emergency reporting, espe
 
 
 🛠️ Technical Stack
-Deep Learning: YOLO (Object Detection), ONNX Runtime (Edge Inference).
+Deep Learning: YOLO (Object Detection), ONNX Runtime (Edge Inference), langgraph, gRPCs.
 
-Networking: gRPC (Binary RPC over HTTP/2), QUIC (Low-latency transport), SRT (Video Streaming).
+Networking: gRPC (Binary RPC over HTTP/2), QUIC (Low-latency transport).
 
 Languages & Libraries: Python 3.13, OpenCV, Protobuf.
 
