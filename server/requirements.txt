@@ -1,0 +1,12 @@
+langgraph
+opencv-python
+ultralytics
+uvicorn
+fastapi
+python-multipart
+easyocr
+
+
+grpcio
+grpcio-tools
+numpy
