@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package accident;
+
+service AccidentReporter {
+  rpc SendAlert (AccidentData) returns (Response);
+}
+
+message AccidentData {
+  bytes frame = 1;
+  float latitude = 2;
+  float longitude = 3;
+  string camera_id = 4;
+  string timestamp = 5;
+}
+
+message Response {
+  string status = 1;
+}
